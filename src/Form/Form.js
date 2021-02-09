@@ -1,20 +1,25 @@
 import React from "react";
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button'
+import Buttons from 'react-bootstrap/Button'
 import "./Form.css";
 import Form from 'react-bootstrap/Form'
 
 
+class Forms extends React.Component {
 
-
-
-function form() {
-    return (
-<div className="form-row">
-   <Form.Control type="text" placeholder=" Enter Zip Code" />
-</div> 
-    );
+ form() {
+ 
   }
+
+render (){
+    return (
+        <div className="form-row">
+           <Form.Control type="text" placeholder=" Enter Zip Code" />
+        </div> 
+            );
+}
+
+}
   
-  export default form;
+  export default Forms;

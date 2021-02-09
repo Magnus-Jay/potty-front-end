@@ -3,9 +3,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import "./Button.css";
-import Form from "../Form/Form.js";
+import Button from 'react-bootstrap/Form'
 
-class Button extends React.Component {
+
+class Buttons extends React.Component {
 
 Button() {
  
@@ -20,4 +21,4 @@ render () {
 }
 
 }
-export default Button;
+export default Buttons;
