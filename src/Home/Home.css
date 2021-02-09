@@ -1,0 +1,11 @@
+.responsive {
+    width: 100%;
+    height: auto;
+    
+}
+
+.search-options {
+   display: flex;
+   justify-content: center;
+}
+    
