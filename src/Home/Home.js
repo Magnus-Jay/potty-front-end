@@ -10,25 +10,31 @@ import Form from "../Form/Form.js";
 
 
 
+class Home extends React.Component {
 
-
-function Home() {
-    return (
-    <Container fluid >
-        <Row className="heading">
-            <h1>
-                Welcome to Potty Time!
-            </h1>
-        </Row>
-        <Row className="potty-img">
-            <Image className="responsive" src={Potty} rounded fluid />
-        </Row>
-        <Row className="search-options">
-        <Form />
-        <Button id="button" />   
-        </Row>  
-    </Container>
-    );
+Home() {
+ 
   }
+
+render () {
+    return (
+        <Container fluid >
+            <Row className="heading">
+                <h1>
+                    Welcome to Potty Time!
+                </h1>
+            </Row>
+            <Row className="potty-img">
+                <Image className="responsive" src={Potty} rounded fluid />
+            </Row>
+            <Row className="search-options">
+            <Form />
+            <Button id="button" />   
+            </Row>  
+        </Container>
+        );
+}
+
+}
   
   export default Home;

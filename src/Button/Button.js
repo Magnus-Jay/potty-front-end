@@ -2,16 +2,22 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
 import "./Button.css";
 import Form from "../Form/Form.js";
 
-function buttonCall() {
-  return (
+class Button extends React.Component {
+
+Button() {
+ 
+}
+
+render () {
+   return (
     <div>
         <Button as="input" type="submit" value="Search" variant="success" className="button" size="lg"/>{" "}
     </div>
   );
 }
 
-export default buttonCall;
+}
+export default Button;
