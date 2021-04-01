@@ -15,7 +15,7 @@ class Forms extends React.Component {
 render (){
     return (
         <div className="form-row">
-           <Form.Control type="text" placeholder="ZipCode here" />
+           <Form.Control type="text" placeholder="ZipCodes here" />
         </div> 
             );
 }
